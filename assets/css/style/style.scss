@@ -1,0 +1,9 @@
+@import "default", "varFile", "minCLass", "minStyle", "aside", "navBox",
+  "contentBox", "login", "missingCard", "popUpStyle", "profileStyle",
+  "formStyle", "loddingAnimation", "dachSitting","tabs";
+
+.modal {
+  z-index: 999999999999;
+}
+
+@import "extendClass";

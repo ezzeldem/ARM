@@ -1,0 +1,32 @@
+.tab_box {
+  padding: 10px 0 10px;
+  margin: 0 0 15px;
+  border-bottom: 1px solid rgba($dark-color, 1);
+  ul {
+    display: flex;
+    align-items: center;
+    li {
+      margin: 0 20px;
+      span {
+        display: block;
+        border-radius: 5px;
+        font-size: 14px;
+        font-weight: 550;
+        color: rgba($white-color, 1);
+        background-color: rgba($green-color, 0.5);
+        padding: 4px 10px;
+        cursor: pointer;
+        @extend%trans-4;
+      }
+      &.active {
+        span {
+          background-color: rgba($green-color, 1);
+        }
+      }
+    }
+  }
+}
+
+.tabMin {
+  display: none;
+}
